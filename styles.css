@@ -93,9 +93,16 @@ h2 {
     cursor: pointer;
 }
 
-#seta-fechar {
+#imagem-seta {
     padding-top: 8px;
     float: right;
+    transform: rotate(45deg);
+}
+
+#imagem-seta-girar {
+    float: right;
+    margin-top: 8px;
+    transform: rotate(90deg);
 }
 
 #resposta {

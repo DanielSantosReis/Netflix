@@ -33,7 +33,7 @@
     </div>
     <div id="rodape">
         <h2>Perguntas frequentes</h2>
-        <button class="botao-perguntas">O que é a Netflix ? <img id="seta-fechar" src="./Assets/Img/fechar.svg" /></button>
+        <button class="botao-perguntas">O que é a Netflix ? <img id="imagem-seta" src="./Assets/Img/fechar.svg" /></button>
         <div id="resposta">
             <p class="paragrafo-resposta">
                 A Netflix é um serviço de transmissão online que oferece uma ampla
@@ -50,5 +50,21 @@
         </div>
     </div>
 </body>
+    <script>
+        let botao = document.getElementById("botao-perguntas")
+        let menu = document.getElementById("resposta")
+        let imagem = document.getElementById("imagem-seta")
 
+        function nagato() {
+            if (menu.style.display == "block") {
+                menu.style.display = "none"
+                imagem.id = "imagem-seta"
+            } else {
+                menu.style.display = "block"
+                imagem.id = "imagem-seta-girar"
+            }
+        }
+
+        botao.addEventListener("click", nagato)
+    </script>
 </html>
