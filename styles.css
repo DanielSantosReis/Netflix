@@ -78,7 +78,7 @@ h2 {
     text-align: center;
 }
 
-.botao-perguntas {
+#botao-pergunta {
     width: 750px;
     height: 70px;
     background-color: #303030;
@@ -93,13 +93,13 @@ h2 {
     cursor: pointer;
 }
 
-#imagem-seta {
+#imagem-pergunta {
     padding-top: 8px;
     float: right;
     transform: rotate(45deg);
 }
 
-#imagem-seta-girar {
+#imagem-pergunta-girar {
     float: right;
     margin-top: 8px;
     transform: rotate(90deg);
