@@ -1,35 +1,54 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
     <title>Netflix</title>
 </head>
+
 <body>
-    <div>
-        <img src="./img/netflix.svg" alt="logo-netflix">
-        <button>Entrar</button>
-    </div>
-    
-    <div>
-        <h1>Filmes, séries e muito mais. Sem limites.</h1>
-        <p>Assista onde quiser. Cancele quando quiser.</p>
-        <p>Pronto para assistir? Informe seu email para criar ou reiniciar sua assinatura.</p>
+    <div id="container">
+        <div id="logo-padding">
+            <img id="logo-netflix" src="./Assets/Img/netflix.svg" alt="logo-netflix" />
+            <button id="botao-entrar">Entrar</button>
+        </div>
 
-        <input placeholder="Email">
-        
-        <button>Vamos lá <img src="./img/seta.svg" alt="seta"></button>
-    </div>
-
-    <div>
-        <h2>Perguntas frequentes</h2>
-        <button>O que é a Netflix <img src="./img/fechar.svg"></button>
         <div>
-            <p>A Netflix é um serviço de transmissão online que oferece uma ampla variedade de séries, filmes e documentários premiados em milhares de aparelhos conectados à internet.</p>
-            <p>Você pode assistir a quantos filmes e séries quiser, quando e onde quiser, sem comerciais – tudo por um preço mensal bem acessível. Aqui você sempre encontra novidades. A cada semana, adicionamos novas séries e filmes.</p>
+            <h1>Filmes, séries e muito mais. Sem limites.</h1>
+            <p id="paragrafo-assista">
+                Assista onde quiser. Cancele quando quiser.
+            </p>
+            <p id="paragrafo-assinatura">
+                Pronto para assistir? Informe seu email para criar ou reiniciar sua
+                assinatura.
+            </p>
+            <div id="fomulario">
+                <input placeholder="Email" />
+                <button id="botao-email">Vamos lá <img src="./Assets/Img/seta.svg" alt="seta" /></button>
+            </div>
         </div>
     </div>
-
+    <div id="rodape">
+        <h2>Perguntas frequentes</h2>
+        <button class="botao-perguntas">O que é a Netflix ? <img id="seta-fechar" src="./Assets/Img/fechar.svg" /></button>
+        <div id="resposta">
+            <p class="paragrafo-resposta">
+                A Netflix é um serviço de transmissão online que oferece uma ampla
+                variedade de séries, filmes e documentários premiados em milhares de
+                aparelhos conectados à internet.
+            </p>
+            <br>
+            <p class="paragrafo-resposta">
+                Você pode assistir a quantos filmes e séries quiser, quando e onde
+                quiser, sem comerciais – tudo por um preço mensal bem acessível. Aqui
+                você sempre encontra novidades. A cada semana, adicionamos novas
+                séries e filmes.
+            </p>
+        </div>
+    </div>
 </body>
+
 </html>
